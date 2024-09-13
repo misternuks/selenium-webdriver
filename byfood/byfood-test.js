@@ -154,7 +154,7 @@ async function testAutomation() {
 
     // Wait for the "Sign in to byFood" text to appear
     let signInSection = await driver.wait(
-      until.elementLocated(By.xpath("//*[text()='Select the desired time']")),
+      until.elementLocated(By.xpath("//*[text()='Sign in to byFood']")),
       5000
     );
 

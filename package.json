@@ -9,5 +9,19 @@
   "devDependencies": {
     "chai": "^5.1.1",
     "mocha": "^10.7.3"
-  }
+  },
+  "scripts": {
+    "start": "supervisor app",
+    "test": "mocha --experimental-modules  --extension mjs"
+  },
+  "name": "selenium-webdriver",
+  "version": "1.0.0",
+  "main": "element-interaction.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
